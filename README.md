@@ -41,6 +41,9 @@ One of the core concepts of the library is that the event loops should not inter
 When an event loop is started it will not block the control flow, instead it provides you various synchronization
 tools to start new asynchronous procedures and to retrieve their results cross environment.
 
+> **Note**
+> a great deal of Scarletio features only works on Linux
+
 You can experiment with scarletio in the REPL:
 ```
 $ python3 -m scarletio
